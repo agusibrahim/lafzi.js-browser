@@ -1,8 +1,6 @@
-Baik, saya akan memfokuskan pada penjelasan fitur dan penggunaan library `lafzi.js-browser` di dalam README.md:
-
 # lafzi.js-browser
 
-`lafzi.js-browser` adalah versi browser-compatible dari library `lafzi.js`, yang memberikan cara mudah untuk mencari ayat-ayat Al-Quran menggunakan pelafalan Latin.
+`lafzi.js-browser` adalah versi browser-compatible dari library [lafzi.js](https://github.com/lafzi/lafzi.js), yang memberikan cara mudah untuk mencari ayat-ayat Al-Quran menggunakan pelafalan Latin.
 
 ## Fitur
 
@@ -29,7 +27,7 @@ lafziJs(options).then((results) => {
 ```
 Jangan lupa menyertakan lib js-nya.
 ```html
-<script src="https://cdn.jsdelivr.net/gh/agusibrahim/lafzijs-browser@master/lafzi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/agusibrahim/lafzi.js-browser@main/lafzi.min.js"></script>
 ```
 
 ## Opsi
@@ -39,26 +37,3 @@ Jangan lupa menyertakan lib js-nya.
 - `threshold`: Ambang batas kesamaan untuk hasil pencarian (antara 0.3 dan 0.95).
 - `isHilight`: Apakah menyoroti hasil pencarian dalam teks ayat.
 - `multipleHighlightPos`: Apakah mengizinkan beberapa sorotan dalam satu ayat yang sama.
-
-## Contoh
-
-Anda dapat menemukan contoh penggunaan library di direktori `example/`. Untuk menjalankan contoh, ikuti langkah-langkah berikut:
-
-1. Salin repository:
-   ```
-   git clone https://github.com/your-username/lafzi.js-browser.git
-   ```
-2. Instal dependensi:
-   ```
-   cd lafzi.js-browser
-   npm install
-   ```
-3. Jalankan server pengembangan:
-   ```
-   npm start
-   ```
-4. Buka browser Anda dan navigasi ke `http://localhost:8080`.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
